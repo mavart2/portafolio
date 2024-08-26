@@ -215,24 +215,24 @@
             <h2 class="title-section">Contacto</h2>
             <form action="" class="form-landing-page" method="post">
                 <div  class="input-field">
-                    <input class="input-form" type="text" name="name_contact" required placeholder="Nombre y apellido">
+                    <input class="input-form" type="text" id="username" name="name_contact" required placeholder="Nombre y apellido">
                 </div>
                 <div class="input-field">
-                    <input class="input-form" type="email" name="email_contact" required placeholder="Ingresa tu email">
+                    <input class="input-form" type="email" id="email" name="email_contact" required placeholder="Ingresa tu email">
                 </div>
                 <div class="input-field">
-                    <input class="input-form" type="number" name="phone_contact" required placeholder="Ingresa tu teléfono">
+                    <input class="input-form" type="number" id="number" name="phone_contact" required placeholder="Ingresa tu teléfono">
                 </div>
                 <div class="input-field">
-                    <select class="select-form" required>
-                        <option value="html5">Masculino</option>
-                        <option value="css3">Femenino</option>
-                        <option value="javascript">No Binario</option>
+                    <select class="select-form" id="genero" required>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Femenino">Femenino</option>
+                        <option value="No Binario">No Binario</option>
                        
                   </select>
                 </div>
                 <div class="input-field">
-                    <textarea class="textarea-form" name="commit_contact" cols="30" rows="10" placeholder="Déjanos tus comentarios..." minlength="10" maxlength="200"></textarea>
+                    <textarea class="textarea-form" id="mensaje"  name="commit_contact" cols="30" rows="10" placeholder="Déjanos tus comentarios..." minlength="10" maxlength="200"></textarea>
                 </div>
                 <button class="btns btn-enviar" type="submit" value="submit" name="btn_enviar">Enviar</button>
             </form>
@@ -249,6 +249,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="./js/script.js"></script>
 
 </body>
 
